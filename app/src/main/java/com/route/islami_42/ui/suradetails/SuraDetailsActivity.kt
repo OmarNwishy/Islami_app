@@ -14,6 +14,7 @@ class SuraDetailsActivity : AppCompatActivity() {
 
     lateinit var sura: SuraDM
 
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySuraDetailsBinding.inflate(layoutInflater)
