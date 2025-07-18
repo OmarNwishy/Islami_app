@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_quran"
+        android:title="@string/quran"/>
+
+
+    <item
+        android:id="@+id/navigation_hadeth"
+        android:enabled="true"
+        android:icon="@drawable/ic_hadeth"
+        android:title="@string/hadeth"/>
+
+    <item
+        android:id="@+id/navigation_sebha"
+        android:enabled="true"
+        android:icon="@drawable/ic_sebha"
+        android:title="@string/sebha"/>
+
+    <item
+        android:id="@+id/navigation_radio"
+        android:enabled="true"
+        android:icon="@drawable/ic_radio"
+        android:title="@string/radio"/>
+
+    <item
+        android:id="@+id/navigation_time"
+        android:enabled="true"
+        android:icon="@drawable/ic_time"
+        android:title="@string/time"/>
+
+</menu>
