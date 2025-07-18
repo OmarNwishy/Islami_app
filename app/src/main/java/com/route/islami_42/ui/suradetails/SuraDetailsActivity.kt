@@ -45,6 +45,9 @@ class SuraDetailsActivity : AppCompatActivity() {
         bindScreenData(suraText)
     }
 
+
+
+
     private fun bindScreenData(suraText: String) {
         binding.tvAppBarTitle.text = sura.nameEn
         binding.tvSuraArabicTitle.text = sura.nameAr
