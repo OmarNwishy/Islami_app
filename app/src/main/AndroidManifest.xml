@@ -15,6 +15,9 @@
             android:name=".ui.suradetails.SuraDetailsActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.hadeth_details.HadethDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.home.MainActivity"
             android:exported="true">
             <intent-filter>

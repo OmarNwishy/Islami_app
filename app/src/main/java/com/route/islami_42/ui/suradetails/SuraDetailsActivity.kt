@@ -33,7 +33,7 @@ class SuraDetailsActivity : AppCompatActivity() {
             intent.getParcelableExtra(Constants.SURA_DETAILS_KEY)!!
         }
 
-        val inputStream = assets.open("${sura.id}.txt")
+        val inputStream = assets.open("quran/${sura.id}.txt")
         val data =inputStream.bufferedReader().readText()
 
         val listOfAyat = data.trim().split("\n").toMutableList()
