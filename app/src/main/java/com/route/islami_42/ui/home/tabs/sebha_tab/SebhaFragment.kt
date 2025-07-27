@@ -8,9 +8,9 @@ import com.route.islami_42.databinding.FragmentSebhaBinding
 class SebhaFragment : Fragment() {
 
     lateinit var  binding: FragmentSebhaBinding
-    val tasabeehList = mutableListOf<String>()
-    var tasbeehCount = 33
-    var tasbeehIndex = 0
+    private val tasabeehList = mutableListOf<String>()
+    private var tasbeehCount = 33
+    private var tasbeehIndex = 0
 
     override fun onCreateView(
         inflater: LayoutInflater,
