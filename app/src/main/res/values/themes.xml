@@ -14,5 +14,12 @@
         <item name="backgroundColor" > @color/black</item>
     </style>
 
+    <style name="SebhaTextViewStyle" parent="Base.Theme.Islami_42">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_36sdp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
     <style name="Theme.Islami_42" parent="Base.Theme.Islami_42" />
 </resources>
